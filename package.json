@@ -1,7 +1,7 @@
 {
-    "name": "reactjs-vite-tailwind-vercel",
+    "name": "business-in-a-box",
     "version": "1.0.0",
-    "description": "ReactJS app with Vite, Tailwind",
+    "description": "Business-in-a-Box services for niche freelancers",
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -10,9 +10,16 @@
         "start": "vite --host"
     },
     "dependencies": {
+        "@headlessui/react": "^1.7.18",
+        "@heroicons/react": "^2.1.1",
         "@sentry/browser": "^8.41.0",
+        "@zapt/zapt-js": "^1.0.22",
+        "clsx": "^2.1.0",
+        "nanoid": "^5.0.6",
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "react-hook-form": "^7.50.1",
+        "react-router-dom": "^6.22.3"
     },
     "devDependencies": {
         "@vitejs/plugin-react": "^4.3.4",
